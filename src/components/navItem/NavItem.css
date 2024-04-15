@@ -1,0 +1,16 @@
+.navItem::before {
+  content: "";
+  display: block;
+  background-color: #0369a1;
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.navItem:hover::before {
+  width: 100%;
+  transition: all 0.3s;
+}

@@ -1,0 +1,14 @@
+.lastCampImage {
+  background-image: url("./assets/shapeGreen.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.curveGreenBg {
+  background-image: url("./assets/greenCurve.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}

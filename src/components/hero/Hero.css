@@ -1,0 +1,98 @@
+@keyframes rotationHero {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.heroImage {
+  background-image: url("../../assets/heroShape.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  content: "";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  box-shadow: 0 10px 20px #21212130;
+  border-radius: 100%;
+  animation: rotationHero 40s ease-out infinite;
+}
+.heroCurve {
+  background-image: url("../../assets/curve.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: block;
+  width: 550px;
+  height: 550px;
+  margin: auto;
+  position: absolute;
+}
+
+@keyframes avatartsAnimate {
+  0% {
+    transform: translateY(20px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+.avatarGroup {
+  animation: avatartsAnimate 12s infinite;
+}
+.slick-dots li button:before {
+  content: " " !important;
+  background: #d5d5d5;
+  border-radius: 60px;
+  border: 4px solid #7480ff;
+  height: 16px !important;
+  width: 16px !important;
+}
+.slick-dots li button:before {
+  content: " " !important;
+  background: #d5d5d5;
+  border-radius: 60px;
+  border: 4px solid #7480ff;
+  height: 16px !important;
+  width: 16px !important;
+}
+ul.slick-dots {
+  display: flex !important;
+  flex-direction: row;
+  position: absolute;
+  margin-left: -40px !important;
+}
+/* Slider Styles */
+@media (max-width: 1000px) {
+  ul.slick-dots {
+    display: flex !important;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 0 !important;
+    justify-content: center;
+  }
+  .heroImage {
+    width: 380px;
+    height: 380px;
+    margin: 0 12px;
+  }
+  .heroCurve{
+    width: 430px;
+    height: 430px;
+  }
+}

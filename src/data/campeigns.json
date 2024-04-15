@@ -1,0 +1,25 @@
+{
+  "campeigns": [
+    {
+      "id": "1",
+      "title": "امین آشنا ایرانیان",
+      "descritpion": " برفراز قله‌های سوددهی.صنـدوق درآمـد ثابـت امیـن آشنـا ایرانیـان",
+      "url": "https://aminfund.ashena.ir",
+      "photoURL": "public/campeigns/aminfund.png"
+    },
+    {
+      "id": "2",
+      "title": "برداشت آنی سه کلیک",
+      "descritpion": "چـون آشنـا داری، آنـی پـول تـو حسابتـه! با یک کلیک از حسابت برداشت کن!",
+      "url": "https://3clicks.ashena.ir",
+      "photoURL": "public/campeigns/3clicks.png"
+    },
+    {
+      "id": "3",
+      "title": "حکمت آشنا",
+      "descritpion": "وقتشـه بـراش سـرمایه گـذاری کنـی  صنـدوق درآمـد ثابـت حکمـت آشنـای ایرانیـان ",
+      "url": "https://hekmat.ashena.ir",
+      "photoURL": "public/campeigns/hekmatfund.png"
+    }
+  ]
+}

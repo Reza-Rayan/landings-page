@@ -1,0 +1,72 @@
+/* Tailwind Import Components */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Tailwind Import Components */
+
+/* Import Fonts */
+@font-face {
+  font-family: "peyda";
+  src: url("/public/fonts/PeydaWeb-Black.woff");
+  src: url("/public/fonts/PeydaWeb-Black.woff2");
+  src: url("/public/fonts/PeydaWeb-Bold-1.woff");
+  src: url("/public/fonts/PeydaWeb-Bold-1.woff2");
+  src: url("/public/fonts/PeydaWeb-Bold.woff");
+  src: url("/public/fonts/PeydaWeb-Bold.woff2");
+  src: url("/public/fonts/PeydaWeb-ExtraBold.woff");
+  src: url("/public/fonts/PeydaWeb-ExtraBold.woff2");
+  src: url("/public/fonts/PeydaWeb-Medium-1.woff");
+  src: url("/public/fonts/PeydaWeb-Medium-1.woff2");
+  src: url("/public/fonts/PeydaWeb-Medium.woff");
+  src: url("/public/fonts/PeydaWeb-Medium.woff2");
+  src: url("/public/fonts/PeydaWeb-Regular.woff");
+  src: url("/public/fonts/PeydaWeb-Regular.woff2");
+}
+
+@font-face {
+  font-family: "iransans";
+  src: url("/public/fonts/iransans/IRANSansWeb.woff");
+  src: url("/public/fonts/iransans/IRANSansWeb.woff2");
+  src: url("/public/fonts/iransans/IRANSansWeb_Black.woff");
+  src: url("/public/fonts/iransans/IRANSansWeb_Black.woff2");
+  src: url("/public/fonts/iransans/IRANSansWeb_Bold.woff");
+  src: url("/public/fonts/iransans/IRANSansWeb_Bold.woff2");
+  src: url("/public/fonts/iransans/IRANSansWeb_Light.woff");
+  src: url("/public/fonts/iransans/IRANSansWeb_Light.woff2");
+  src: url("/public/fonts/iransans/IRANSansWeb_Medium.woff");
+  src: url("/public/fonts/iransans/IRANSansWeb_Medium.woff2");
+  src: url("/public/fonts/iransans/IRANSansWeb_UltraLight.woff");
+  src: url("/public/fonts/iransans/IRANSansWeb_UltraLight.woff2");
+}
+
+/* Import Fonts */
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  background-color: #ffffff !important;
+  font-family: "peyda";
+  overflow-x: hidden;
+}
+
+p,
+div,
+sction {
+  font-weight: 500;
+}
+
+li {
+  font-weight: 900 !important;
+  font-family: "iransans";
+}
+.font-peyda {
+  font-family: "peyda";
+}
+.font-iransans {
+  font-family: "iransans";
+}
+/* Global Styles */
+
